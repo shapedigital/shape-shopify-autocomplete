@@ -8,26 +8,28 @@ https://github.com/microsoft/vscode-extension-samples/blob/main/completions-samp
 
 import * as vscode from 'vscode';
 
-import product from './objects/product';
+import article from './objects/article';
 import collection from './objects/collection';
+import product from './objects/product';
 
 export function activate(context: vscode.ExtensionContext) {
 
-	const productObject = vscode.languages.registerCompletionItemProvider('liquid', {
+	const articleObject = vscode.languages.registerCompletionItemProvider('liquid', {
 
 		provideCompletionItems(document: vscode.TextDocument, position: vscode.Position, token: vscode.CancellationToken, context: vscode.CompletionContext) {
 
-			const properties = product;
+			const properties = article;
 			const string = properties.toString();
 
-			const snippetCompletion = new vscode.CompletionItem('product');
-			snippetCompletion.insertText = new vscode.SnippetString(`product.\${1|${properties}|}`);
+			const snippetCompletion = new vscode.CompletionItem('article');
+			snippetCompletion.insertText = new vscode.SnippetString(`article.\${1|${properties}|}`);
 
 			return [
 				snippetCompletion
 			];
 		}
 	});
+
 
 	const collectionObject = vscode.languages.registerCompletionItemProvider('liquid', {
 
@@ -45,5 +47,21 @@ export function activate(context: vscode.ExtensionContext) {
 		}
 	});
 
-	context.subscriptions.push(productObject, collectionObject);
+	const productObject = vscode.languages.registerCompletionItemProvider('liquid', {
+
+		provideCompletionItems(document: vscode.TextDocument, position: vscode.Position, token: vscode.CancellationToken, context: vscode.CompletionContext) {
+
+			const properties = product;
+			const string = properties.toString();
+
+			const snippetCompletion = new vscode.CompletionItem('product');
+			snippetCompletion.insertText = new vscode.SnippetString(`product.\${1|${properties}|}`);
+
+			return [
+				snippetCompletion
+			];
+		}
+	});
+
+	context.subscriptions.push(articleObject, collectionObject, productObject);
 }
