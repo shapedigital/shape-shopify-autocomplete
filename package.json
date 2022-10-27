@@ -1,0 +1,38 @@
+{
+	"name": "shape-shopify-autocomplete",
+	"displayName": "Shopify liquid autocomplete",
+	"version": "0.2.0",
+	"publisher": "Shape",
+	"icon": "images/icon.png",
+	"license": "MIT",
+	"bugs": "https://github.com/shapedigital/shape-shopify-autocomplete/issues",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/shapedigital/shape-shopify-autocomplete.git"
+	},
+	"engines": {
+		"vscode": "^1.32.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension.js",
+	"scripts": {
+		"publish:minor": "vsce publish minor",
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"lint": "eslint . --ext .ts,.tsx",
+		"watch": "tsc -watch -p ./"
+	},
+	"devDependencies": {
+		"@types/node": "^16.11.7",
+		"@types/vscode": "^1.32.0",
+		"@typescript-eslint/eslint-plugin": "^5.30.0",
+		"@typescript-eslint/parser": "^5.30.0",
+		"eslint": "^8.13.0",
+		"typescript": "^4.8.4"
+	}
+}
