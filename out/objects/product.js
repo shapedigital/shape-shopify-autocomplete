@@ -38,6 +38,9 @@ const properties = [
     'template_suffix',
     'title',
     'type',
+    'url',
+    'variants',
+    'vendor'
 ];
 exports.default = properties;
 //# sourceMappingURL=product.js.map

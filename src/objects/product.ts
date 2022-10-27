@@ -36,6 +36,9 @@ const properties: Array<string> = [
 	'template_suffix',
 	'title',
 	'type',
+	'url',
+	'variants',
+	'vendor'
 ];
 
 export default properties;
