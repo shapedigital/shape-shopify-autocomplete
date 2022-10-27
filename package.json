@@ -17,7 +17,8 @@
 		"Other"
 	],
 	"activationEvents": [
-		"*"
+		"onLanguage:liquid",
+		"workspaceContains:**/*.liquid"
 	],
 	"main": "./out/extension.js",
 	"scripts": {
