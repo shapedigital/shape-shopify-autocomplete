@@ -3,14 +3,9 @@
 | Object                                                                                                                          | Added |
 | ------------------------------------------------------------------------------------------------------------------------------- | ----- |
 | [address](https://shopify.dev/api/liquid/objects/address)                                                                       |       |
-| [all\_country\_option\_tags](https://shopify.dev/api/liquid/objects/all_country_option_tags)                                    |       |
-| [all\_products](https://shopify.dev/api/liquid/objects/all_products)                                                            |       |
 | [article](https://shopify.dev/api/liquid/objects/article)                                                                       |       |
-| [articles](https://shopify.dev/api/liquid/objects/articles)                                                                     |       |
 | [block](https://shopify.dev/api/liquid/objects/block)                                                                           |       |
 | [blog](https://shopify.dev/api/liquid/objects/blog)                                                                             |       |
-| [blogs](https://shopify.dev/api/liquid/objects/blogs)                                                                           |       |
-| [canonical\_url](https://shopify.dev/api/liquid/objects/canonical_url)                                                          |       |
 | [cart](https://shopify.dev/api/liquid/objects/cart)                                                                             |       |
 | [checkout](https://shopify.dev/api/liquid/objects/checkout)                                                                     |       |
 | [collection](https://shopify.dev/api/liquid/objects/collection)                                                                 |       |
