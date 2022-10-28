@@ -1,6 +1,7 @@
 {
 	"name": "shape-shopify-autocomplete",
 	"displayName": "Shopify - Liquid Autocomplete",
+	"description": "Autocomplete for Shopify Liquid Objects.",
 	"version": "0.5.0",
 	"publisher": "Shape",
 	"icon": "images/icon.png",
