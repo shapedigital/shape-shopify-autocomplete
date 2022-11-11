@@ -26,7 +26,7 @@
 		"publish:minor": "vsce publish minor",
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
-		"lint": "eslint . --ext .ts,.tsx",
+		"lint": "eslint . --fix --ext .ts,.tsx",
 		"watch": "tsc -watch -p ./"
 	},
 	"devDependencies": {
