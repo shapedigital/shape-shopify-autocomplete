@@ -16,15 +16,27 @@ const cart_1 = require("./objects/cart");
 const collection_1 = require("./objects/collection");
 const color_1 = require("./objects/color");
 const comment_1 = require("./objects/comment");
-const companyAddress_1 = require("./objects/companyAddress");
-const companyLocation_1 = require("./objects/companyLocation");
+const company_address_1 = require("./objects/company_address");
+const company_location_1 = require("./objects/company_location");
 const country_1 = require("./objects/country");
 const currency_1 = require("./objects/currency");
 const customer_1 = require("./objects/customer");
-const discountAllocation_1 = require("./objects/discountAllocation");
-const discountApplication_1 = require("./objects/discountApplication");
-const externalVideo_1 = require("./objects/externalVideo");
+const discount_allocation_1 = require("./objects/discount_allocation");
+const discount_application_1 = require("./objects/discount_application");
+const external_video_1 = require("./objects/external_video");
 const filter_1 = require("./objects/filter");
+const filter_value_1 = require("./objects/filter_value");
+const focal_point_1 = require("./objects/focal_point");
+const font_1 = require("./objects/font");
+const forloop_1 = require("./objects/forloop");
+const form_1 = require("./objects/form");
+const form_errors_1 = require("./objects/form_errors");
+const fufillment_1 = require("./objects/fufillment");
+const generic_file_1 = require("./objects/generic_file");
+const gift_card_1 = require("./objects/gift_card");
+const group_1 = require("./objects/group");
+const image_1 = require("./objects/image");
+const image_presentation_1 = require("./objects/image_presentation");
 const product_1 = require("./objects/product");
 const liquidObjects = {
     address: address_1.default,
@@ -35,15 +47,27 @@ const liquidObjects = {
     collection: collection_1.default,
     color: color_1.default,
     comment: comment_1.default,
-    companyAddress: companyAddress_1.default,
-    companyLocation: companyLocation_1.default,
+    company_address: company_address_1.default,
+    company_location: company_location_1.default,
     country: country_1.default,
     currency: currency_1.default,
     customer: customer_1.default,
-    discountAllocation: discountAllocation_1.default,
-    discountApplication: discountApplication_1.default,
-    externalVideo: externalVideo_1.default,
+    discount_allocation: discount_allocation_1.default,
+    discount_application: discount_application_1.default,
+    external_video: external_video_1.default,
     filter: filter_1.default,
+    filter_value: filter_value_1.default,
+    focal_point: focal_point_1.default,
+    font: font_1.default,
+    forloop: forloop_1.default,
+    form: form_1.default,
+    form_errors: form_errors_1.default,
+    fufillment: fufillment_1.default,
+    generic_file: generic_file_1.default,
+    gift_card: gift_card_1.default,
+    group: group_1.default,
+    image: image_1.default,
+    image_presentation: image_presentation_1.default,
     product: product_1.default,
 };
 function activate(context) {
