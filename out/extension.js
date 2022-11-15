@@ -37,6 +37,10 @@ const gift_card_1 = require("./objects/gift_card");
 const group_1 = require("./objects/group");
 const image_1 = require("./objects/image");
 const image_presentation_1 = require("./objects/image_presentation");
+const line_item_1 = require("./objects/line_item");
+const link_1 = require("./objects/link");
+const linklist_1 = require("./objects/linklist");
+const localization_1 = require("./objects/localization");
 const product_1 = require("./objects/product");
 const liquidObjects = {
     address: address_1.default,
@@ -68,6 +72,10 @@ const liquidObjects = {
     group: group_1.default,
     image: image_1.default,
     image_presentation: image_presentation_1.default,
+    line_item: line_item_1.default,
+    link: link_1.default,
+    linklist: linklist_1.default,
+    localization: localization_1.default,
     product: product_1.default,
 };
 function activate(context) {

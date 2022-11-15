@@ -37,6 +37,10 @@ import gift_card from "./objects/gift_card";
 import group from "./objects/group";
 import image from "./objects/image";
 import image_presentation from "./objects/image_presentation";
+import line_item from "./objects/line_item";
+import link from "./objects/link";
+import linklist from "./objects/linklist";
+import localization from "./objects/localization";
 import product from "./objects/product";
 
 const liquidObjects = {
@@ -69,7 +73,10 @@ const liquidObjects = {
   group: group,
   image: image,
   image_presentation: image_presentation,
-
+  line_item: line_item,
+  link: link,
+  linklist: linklist,
+  localization: localization,
   product: product,
 };
 
